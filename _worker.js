@@ -1570,12 +1570,6 @@ import { connect } from "cloudflare:sockets";
     </body>
     </html>
     `;
-return new Response(html, {
-  headers: {
-    'Content-Type': 'text/html; charset=utf-8',
-  }
-});
-
 
     class Document {
     async handleRequest(request) {
